@@ -1,0 +1,70 @@
+name: flutter_ume
+description: Community Version of UME is an in-app debug kits platform for Flutter apps.
+version: 2.0.4
+homepage: https://github.com/ume-community/ume
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  shared_preferences: ^2.0.15
+
+  vm_service: ^14.2.5
+
+  tuple: ^2.0.0
+
+  ume_core:
+    path: ume_core
+  ume_kit_channel_monitor:
+    path: ume_kits/packages/ume_kit_channel_monitor
+  ume_kit_channel_observer:
+    path: ume_kits/packages/ume_kit_channel_observer
+  ume_kit_clean_local_data:
+    path: ume_kits/packages/ume_kit_clean_local_data
+  ume_kit_console:
+    path: ume_kits/packages/ume_kit_console
+  ume_kit_database:
+    path: ume_kits/packages/ume_kit_database
+  ume_kit_designer_check:
+    path: ume_kits/packages/ume_kit_designer_check
+  ume_kit_device:
+    path: ume_kits/packages/ume_kit_device
+  ume_kit_dio:
+    path: ume_kits/packages/ume_kit_dio
+  ume_kit_get_connect:
+    path: ume_kits/packages/ume_kit_get_connect
+  ume_kit_memory_detector:
+    path: ume_kits/packages/ume_kit_memory_detector
+  ume_kit_monitor:
+    path: ume_kits/packages/ume_kit_monitor
+  ume_kit_perf:
+    path: ume_kits/packages/ume_kit_perf
+  ume_kit_shared_preferences:
+    path: ume_kits/packages/ume_kit_shared_preferences
+  ume_kit_show_code:
+    path: ume_kits/packages/ume_kit_show_code
+  ume_kit_slow_animation:
+    path: ume_kits/packages/ume_kit_slow_animation
+  ume_kit_ui:
+    path: ume_kits/packages/ume_kit_ui
+
+dev_dependencies:
+  flutter_lints: any
+  flutter_test:
+    sdk: flutter
+  melos: ^6.2.0
+  mockito: ^5.3.2
+  flutter_coverage_badge:
+    git:
+      url: https://github.com/smileShirely/flutter_coverage_badge.git
+      ref: 59b7580f406bb712e9d9049c8c99212946e34f65
+  # lints: ^5.1.0
+
+flutter:
+  uses-material-design: true

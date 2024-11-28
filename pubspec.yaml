@@ -20,39 +20,39 @@ dependencies:
   tuple: ^2.0.0
 
   ume_core:
-    path: ume_core
+    path: ./ume_core
   ume_kit_channel_monitor:
-    path: ume_kits/packages/ume_kit_channel_monitor
+    path: ./ume_kits/packages/ume_kit_channel_monitor
   ume_kit_channel_observer:
-    path: ume_kits/packages/ume_kit_channel_observer
+    path: ./ume_kits/packages/ume_kit_channel_observer
   ume_kit_clean_local_data:
-    path: ume_kits/packages/ume_kit_clean_local_data
+    path: ./ume_kits/packages/ume_kit_clean_local_data
   ume_kit_console:
-    path: ume_kits/packages/ume_kit_console
+    path: ./ume_kits/packages/ume_kit_console
   ume_kit_database:
-    path: ume_kits/packages/ume_kit_database
+    path: ./ume_kits/packages/ume_kit_database
   ume_kit_designer_check:
-    path: ume_kits/packages/ume_kit_designer_check
+    path: ./ume_kits/packages/ume_kit_designer_check
   ume_kit_device:
-    path: ume_kits/packages/ume_kit_device
+    path: ./ume_kits/packages/ume_kit_device
   ume_kit_dio:
-    path: ume_kits/packages/ume_kit_dio
+    path: ./ume_kits/packages/ume_kit_dio
   ume_kit_get_connect:
-    path: ume_kits/packages/ume_kit_get_connect
+    path: ./ume_kits/packages/ume_kit_get_connect
   ume_kit_memory_detector:
-    path: ume_kits/packages/ume_kit_memory_detector
+    path: ./ume_kits/packages/ume_kit_memory_detector
   ume_kit_monitor:
-    path: ume_kits/packages/ume_kit_monitor
+    path: ./ume_kits/packages/ume_kit_monitor
   ume_kit_perf:
-    path: ume_kits/packages/ume_kit_perf
+    path: ./ume_kits/packages/ume_kit_perf
   ume_kit_shared_preferences:
-    path: ume_kits/packages/ume_kit_shared_preferences
+    path: ./ume_kits/packages/ume_kit_shared_preferences
   ume_kit_show_code:
-    path: ume_kits/packages/ume_kit_show_code
+    path: ./ume_kits/packages/ume_kit_show_code
   ume_kit_slow_animation:
-    path: ume_kits/packages/ume_kit_slow_animation
+    path: ./ume_kits/packages/ume_kit_slow_animation
   ume_kit_ui:
-    path: ume_kits/packages/ume_kit_ui
+    path: ./ume_kits/packages/ume_kit_ui
 
 dev_dependencies:
   flutter_lints: any
